@@ -62,6 +62,8 @@
     width: 45px;
     background: var(--strong-cyan);
     background-image: url("../images/icon-slider.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
     margin-top: -5px;
     border-radius: 50%;
     border: none;
@@ -123,9 +125,11 @@
 }
 
 .billing-slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
     width: 50px;
-    background: var(--light-greyish-blue-2);
     height: 25px;
+    border-radius: 50px;
+    background: var(--light-greyish-blue-2);
 }
 
 .billing-slider::-moz-range-track {
