@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](./screenshot-dsk-top.jpg)
-![mobile](./screenshot-mbl.jpg)
+![desktop](./images/screenshot-dsk-top.jpg)
+![mobile](./images/screenshot-mbl.jpg)
 
 ### Links
 
