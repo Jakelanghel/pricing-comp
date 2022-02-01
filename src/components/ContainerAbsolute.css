@@ -1,0 +1,19 @@
+.container-absolute {
+    width: 90%;
+    background: var(--white);
+    text-align: center;
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 1px var(--light-greyish-blue-2);
+}
+
+@media (min-width: 600px) {
+    .container-absolute {
+        max-width: 650px;
+        padding: 1rem 3rem;
+    }
+}

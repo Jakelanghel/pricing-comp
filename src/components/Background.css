@@ -1,0 +1,46 @@
+.container-background {
+    background: var(--white);
+    height: 100vh;
+    position: relative;
+}
+
+.container-header {
+    color: var(--desaturated-blue);
+    background-image: url("../images/bg-pattern.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left -20px;
+    height: 500px;
+}
+
+.title-card {
+    text-align: center;
+    padding: 6rem 0;
+    line-height: 1.75rem;
+    background-image: url("../images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: 175px;
+    background-position: center center;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    color: var(--desaturated-blue);
+}
+
+.subtitle {
+    color: var(--grayish-blue);
+}
+
+@media (min-width: 600px) {
+    .title-card {
+        background-size: 175px;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+        color: var(--desaturated-blue);
+    }
+}

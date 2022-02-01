@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+
+:root {
+    /* Primary-colors*/
+    --soft-cyan: hsl(174, 77%, 80%); /* (Full Slider Bar) */
+    --strong-cyan: hsl(174, 86%, 45%); /* (Slider Background) */
+    --light-greyish-red: hsl(14, 92%, 98%);
+    --discount-background: hsl(14, 92%, 96%); /* (Discount Background) */
+    --light-red: hsl(15, 100%, 70%); /* (Discount Text)) */
+    --light-blue: hsl(226, 100%, 87%); /* (CTA Text) */
+
+    /* Neutral-colors*/
+    --white: hsl(0, 0%, 100%); /* (Pricing Component Background) */
+    --pale-blue: hsl(230, 100%, 99%); /* (Main Background) */
+    --light-greyish-blue-1: hsl(224, 65%, 95%); /* (Empty Slider Bar) */
+    --light-greyish-blue-2: hsl(223, 50%, 87%); /* (Toggle Background) */
+    --grayish-blue: hsl(225, 20%, 60%); /* (Text) */
+    --desaturated-blue: hsl(227, 35%, 25%); /* (Text & CTA Background) */
+}
+
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+    color: var(--grayish-blue);
+    /* background: var(--light-greyish-red); */
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
