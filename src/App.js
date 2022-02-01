@@ -68,19 +68,6 @@ function App() {
                 value: value,
             };
         });
-
-        // const ogPrice = parseInt(pageViewData.price.substring(1));
-        // const disCountPrice = 0.25 * ogPrice;
-        // const str = `$${disCountPrice}.00`;
-        // setPageViewData((oldData) => {
-        //     return oldData.discount
-        //         ? oldData
-        //         : { ...oldData, price: str, discount: true };
-        //     return {
-        //         ...oldData,
-        //         price: str,
-        //     };
-        // });
     };
 
     return (
